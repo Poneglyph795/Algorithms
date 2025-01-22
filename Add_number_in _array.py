@@ -1,3 +1,10 @@
+#Simple program which add two number form the array which having complexity of o(n)  
+##Question was Array1 = [2,7,11,15]  
+##Array2 = [3,2,4]  
+##Array3 = [3,3]  
+##OUTPUT = 9,6,6
+
+
 def Sum_Array(Array1):
     first = Array1[0]
     second = Array1[1]
