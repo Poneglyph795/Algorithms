@@ -1,12 +1,12 @@
 
 
 def Smallest_element(array):
-     Smallest_number=array[0]
+     Smallest_number[index]=array[]
      Smallest_index=0
 
      for i in range(1 , len(array)):
       if(array[i]<Smallest_index):
-               Smallest_number=array[i]
+               Smallest_number[index]=array[i]
                Smallest_index=i
      return Smallest_index,Smallest_number
 
