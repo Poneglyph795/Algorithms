@@ -1,12 +1,12 @@
+## Find the smallest number in the array
 
+def Smallest_element(array): 
+     Smallest_number=array[0]      ## Puting zero index  number in Smallest_number variable   
+     Smallest_index=0               ## Assing the zero  to Smallest_index
 
-def Smallest_element(array):
-     Smallest_number[index]=array[]
-     Smallest_index=0
-
-     for i in range(1 , len(array)):
-      if(array[i]<Smallest_index):
-               Smallest_number[index]=array[i]
+     for i in range(1 , len(array)):     ##  Because asign smallest_number at zero index so start form 1 , len(array)
+      if(array[i]<Smallest_index):       ##  Condition if array [i] smallest than zero index array[0] 
+               Smallest_number=array[i]
                Smallest_index=i
      return Smallest_index,Smallest_number
 
