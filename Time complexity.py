@@ -21,7 +21,7 @@ def Binary_search(array_list,Target):
     return False
 
 
-def simple_search(array_list,Target):
+def simple_search(array_list,Target):         ## Its a simple algorithm function for searching a number into array also also linear algorithms
     Low=0                           
     High=len(array_list)-1
 
