@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int bubbleshot(int a[], int target, int size);  //Function declaration
+int binarysearch(int a[], int target, int size);  //Function declaration
 
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 
 
 
-int bubbleshot(int a[],int target, int size) //  function defination
+int binarysearch(int a[],int target, int size) //  function defination
 {
   int left=0;
   int right=size-1;
